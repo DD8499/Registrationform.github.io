@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            .a{margin: 1px 1px; }
+            .b{margin: 1px 1px;}
+            .c{margin: 1px 1px;}
+            .d{margin: 1px 1px;}
+            .e{margin: 1px 1px;}
+            .f{margin: 1px 1px;}
+            .g{ color: blue; background-color: aliceblue;    margin: 1px 1px;}
+            .u{margin: 1px 1px; margin-right: 200px; color: red;}
+            .p { font-size: x-small;   margin: 1px 1px;}
+       
+       </style>
+    </head>
+    <body>
+        <form>
+            <div class="a">
+        <h4>Your Name</h4>
+        <input type="text" placeholder="First Name" maxlength="15">
+        <input type="text" placeholder="Last Name" maxlength="15">
+    </div>
+        <br>
+        
+        <div class="c">
+        <h4>Your Mail Id</h4>
+        
+        <input type="email" placeholder="Enter Your Mail Id" required>
+        <span class="u">*</span>
+    </div>
+       <br>
+        <div class="b">
+        <h4>Your Password</h4>
+        <input type="password" placeholder="Password" minlength="8" required>
+        <span class="u">*</span>
+    </div>
+        
+        <br>
+        <div class="d">
+        <h4>Enter Your Birth Date</h4>
+        <input type="date" type="month" type="year">
+    </div>
+        <br>
+        <div class="e">
+        <h4>Gender</h4>
+        <input type="checkbox" >
+        <span>Male</span>
+        <br>
+        <input type="checkbox">
+        <span>Female</span>
+    </div>
+        <br>
+        
+        <div class="f">
+        <h4>Enter Mobile No.</h4>
+        <input type="number" maxlength="10" checked>
+        <br>
+    </div>
+    <br>
+    <br>
+    <span class="p">* is mandatory</span>
+        <button class="g" type="submit">submit</button>
+    </form>
+    </body>
+</html>
